@@ -13,11 +13,11 @@ describe("Visit Indochen Dev Site", () => {
     });
 
     it("require user email", () => {
-        cy.get(".login-email").type("adl.mytest@gmail.com");
+        cy.get(".login-email").type("adl.mytest@gmail.com", { delay: 200 });
     });
 
     it("require password", () => {
-        cy.get(".login-password").type("bijusulu");
+        cy.get(".login-password").type("bijusulu", { delay: 200 });
     });
 
     it("click login", () => {
@@ -79,11 +79,7 @@ describe("Visit Indochen Dev Site", () => {
         cy.get("#checkout_Modal").should("be.visible");
         cy.get(
             ".tip-wrapper > :nth-child(5) > .input-group > .form-control"
-        ).type("5.55");
-    });
-
-    it("check accept terms & conditions", () => {
-        cy.get("#terms_checkbox").check();
+        ).type("8.55");
     });
 
     it("Select Pay at Restaurant in Payment Method", () => {
@@ -93,6 +89,9 @@ describe("Visit Indochen Dev Site", () => {
         // cy.contains("label", "Pay at the Restaurant")
         //     .invoke("attr", "for")
         //     .should("equal", "cash");
+    });
+    it("check accept terms & conditions", () => {
+        cy.get("#terms_checkbox").check();
     });
 
     it("click pay order", () => {
