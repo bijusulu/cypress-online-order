@@ -3,7 +3,7 @@ describe("Visit Indochen Dev Site", () => {
         cy.viewport("macbook-15");
     });
     it("Visit Homepage Indochen Dev", () => {
-        cy.visit("indochen.appdiscoverylab.com");
+        cy.visit("indochen.everestorder.com");
     });
 
     it("Choose Location Cameron Station", () => {
@@ -11,7 +11,7 @@ describe("Visit Indochen Dev Site", () => {
     });
 
     it("Open Login Dialog Modal", () => {
-        // cy.visit("https://indochen.appdiscoverylab.com/cameron-station/");
+        // cy.visit("https://indochen.everestorder.com/cameron-station/");
         cy.get(".login-register-links").click();
         cy.get(".modal-dialog").should("be.visible");
     });

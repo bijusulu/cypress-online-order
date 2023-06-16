@@ -2,22 +2,19 @@ describe("Visit Indochen Dev Site", () => {
     beforeEach(() => {
         cy.viewport("macbook-15");
     });
-    // it("Visit Homepage Indochen Dev", () => {
-    //     cy.visit("indochen.appdiscoverylab.com");
-    // });
 
     it("Open Login Dialog Modal", () => {
-        cy.visit("https://indochen.appdiscoverylab.com/cameron-station/");
+        cy.visit("https://indochen.everestorder.com/cameron-station/");
         cy.get(".login-register-links").click();
         cy.get(".modal-dialog").should("be.visible");
     });
 
     it("require user email", () => {
-        cy.get(".login-email").type("adl.mytest@gmail.com", { delay: 200 });
+        cy.get(".login-email").type("indonepal@yopmail.com", { delay: 200 });
     });
 
     it("require password", () => {
-        cy.get(".login-password").type("bijusulu", { delay: 200 });
+        cy.get(".login-password").type("11111111", { delay: 200 });
     });
 
     it("click login", () => {
