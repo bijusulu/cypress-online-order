@@ -1,0 +1,371 @@
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "@id": "https://www.ektaindiancuisine.com/fishtown/order-now",
+    "name": "Ekta Indian Cuisine - Fish Town",
+    "description": "Ekta is an authentic Indian restaurant in Fishtown, Philadelphia, and has been serving Indian cuisine meticulously prepared with fresh ingredients and traditional Indian herbs and spices for 10 years.",
+    "image": "https://www.ektaindiancuisine.com/fishtown/img/logo.png",
+    "telephone": "(215) 426-2277",
+    "url": "https://www.ektaindiancuisine.com/fishtown/",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Philadelphia",
+        "addressRegion": "PA",
+        "postalCode": "19125",
+        "streetAddress": "1142 Crease St."
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.4",
+        "reviewCount": "366"
+    },
+    "openingHours": [
+        "Mo-Th 11:00-21:30",
+        "Fr 11:00-22:00",
+        "Sa 12:00-22:00",
+        "Su 12:00-21:00"
+    ],
+    "priceRange": "$1 - $30",
+    "servesCuisine": [
+        "Nepali Cuisine",
+        "Indian Cuisine"
+    ],
+    "potentialAction": {
+        "@type": "OrderAction",
+        "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://www.ektaindiancuisine.com/fishtown/order-now",
+            "inLanguage": "en-US",
+            "actionPlatform": [
+                "http://schema.org/DesktopWebPlatform",
+                "http://schema.org/IOSPlatform",
+                "http://schema.org/AndroidPlatform"
+            ]
+        }
+    },
+    "menu": "https://www.ektaindiancuisine.com/fishtown/order-now",
+    "hasMenu": {
+        "@type": "Menu",
+        "name": "Ekta Indian Cuisine Fishtown online order",
+        "description": "List of different Food Menu Items",
+        "url": "https://www.ektaindiancuisine.com/fishtown/order-now",
+        "hasMenuSection": [
+            {
+              "@type": "MenuSection",
+              "name": "Appetizers",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Veg. Samosa (Vegan) (2pcs)",
+                  "description": "Crispy Flour pastry with Potatoes and Peas",
+        
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "4.25",
+                    "priceCurrency": "USD"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Samosa Chat",
+                  "description": "Vegetable pastry topped with chickpeas, mint, onion",
+        
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "5.25",
+                    "priceCurrency": "USD"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Aaloo Aur Papri Chaat",
+                  "description": "Lentil wafers topped with potatoes,Chick peas, yogurt, mint and tamarind (Served Cold)",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "4.25",
+                    "priceCurrency": "USD"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Chilli Chicken",
+                  "description": "Chicken Thai fried with homemade Masala and sautéed with onion, ginger, garlic, and hot chili ",
+        
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "7.25",
+                    "priceCurrency": "USD"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "MenuSection",
+              "name": "Bread",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Peshawari Naan",
+                  "description": "White flour bread stuffed with dry fruits and Nuts",
+        
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "4.75",
+                    "priceCurrency": "USD"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Chicken Naan",
+                  "description": "White flour bread stuffed with minced chicken",
+        
+                  "offers":
+                    {
+                      "@type": "Offer",
+                      "price": "5.25",
+                      "priceCurrency": "USD"
+                    }
+        
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Tandoori Roti (Vegan)",
+                  "description": "Whole wheat plain bread.",
+        
+                  "offers": [
+                    {
+                      "@type": "Offer",
+                      "price": "3.25",
+                      "priceCurrency": "USD"
+                    }
+                  ]
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Alu Naan",
+                  "description": "White flour bread stuffed with potato.",
+        
+                  "offers": [
+                    {
+                      "@type": "Offer",
+                      "price": "4.25",
+                      "priceCurrency": "USD"
+                    }
+                  ]
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Paneer Naan",
+                  "description": "White flour bread stuffed with Cheese",
+        
+                  "offers": [
+                    {
+                      "@type": "Offer",
+                      "price": "4.75",
+                      "priceCurrency": "USD"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "MenuSection",
+              "name": "Non-Veg Main Course",
+              "description": "Served with Basmati Rice Chicken",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Chicken Tikka Masala",
+                  "description": "Boneless chicken breast cooked in creamy onion and tomato sauce.",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "15.99",
+                    "priceCurrency": "USD"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Chicken Curry",
+                  "description": "Chicken breast cooked in onion tomato sauce (Dhaba styles)",
+        
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "15.99",
+                    "priceCurrency": "USD"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Chicken Korma",
+                  "description": "Chicken breast cooked in onion tomato and creamy cashew sauce",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "15.99",
+                    "priceCurrency": "USD"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Ekta Murg",
+                  "description": "Chicken breast cooked with fresh tomato sauce & mustard seed in light cream",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "15.99",
+                    "priceCurrency": "USD"
+                  }
+                }
+        
+              ]
+            },
+            {
+              "@type": "MenuSection",
+              "name": "Vegetarian Main Course",
+              "description": "Served with Basmati Rice",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Saag Aur Paneer",
+                  "description": "Cheese Cubes (Paneer) cooked with light cream, spinach, onion, and tomato sauce.",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "14.49",
+                    "priceCurrency": "USD"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Dal Makhani",
+                  "description": "Black lentil cooked with, cream, onion, tomato, and ginger",
+        
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "13.49",
+                    "priceCurrency": "USD"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Kadai Paneer (Spicy)",
+                  "description": "Cheese cubes (Paneer) cooked with tomato sauce, fresh red and green peppers and onions.",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "15.99",
+                    "priceCurrency": "USD"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Paneer Malai Methi",
+                  "description": "Cheese cubes(Paneer) cooked with fenugreek leaf, onion tomato sauce, and creamy cashew paste.",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "15.99",
+                    "priceCurrency": "USD"
+                  }
+                }
+        
+              ]
+            },
+            {
+              "@type": "MenuSection",
+              "name": "Lamb",
+              "description": "",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Lamb Vindaloo (Spicy)",
+                  "description": "Lamb cubes with hot onion & tomato sauce.",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "16.99",
+                    "priceCurrency": "USD"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Lamb Chetinad",
+                  "description": "Lamb cubes cooked with fresh coconut, curry leaves, and mustard seed in a South Indian style",
+        
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "16.99",
+                    "priceCurrency": "USD"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Lamb Korma",
+                  "description": "Lamb cubes cooked in onion tomato and creamy cashew sauce",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "16.99",
+                    "priceCurrency": "USD"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Lamb Tikka Masala",
+                  "description": "Lamb cubes cooked in a creamy Onion and tomato sauce.",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "16.99",
+                    "priceCurrency": "USD"
+                  }
+                }
+        
+              ]
+            },
+            {
+              "@type": "MenuSection",
+              "name": "Sea Food",
+              "description": "",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Shrimp Tikka Masala",
+                  "description": "Shrimp cooked in creamy onion and tomato sauce.",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "17.99",
+                    "priceCurrency": "USD"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Mango Shrimp",
+                  "description": "Shrimp Cooked with fresh mango, creamy onion tomato sauce moderately spiced.",
+        
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "17.99",
+                    "priceCurrency": "USD"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Ekta Shrimp",
+                  "description": "Shrimp cooked with fresh tomato sauce & mustard seed in light cream.",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "17.99",
+                    "priceCurrency": "USD"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Goan Fish Curry",
+                  "description": "Tilapia fish cooked with fresh coconut, onion & tomato sauce in light cream.",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "17.99",
+                    "priceCurrency": "USD"
+                  }
+                }
+        
+              ]
+            }
+          ]
+        }
+    } 
+</script>
