@@ -14,7 +14,7 @@ describe("Visit Indochen Dev Site", () => {
     });
 
     it("require password", () => {
-        cy.get(".login-password").type("11111111", { delay: 200 });
+        cy.get(".login-password").type("1111111111", { delay: 200 });
     });
 
     it("click login", () => {
