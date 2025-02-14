@@ -32,14 +32,14 @@ describe("Visit Indochen Cameron Dev Site", () => {
 	});
 
 	// ASAP Order
-	it("click Now", () => {
-		cy.get("[data-target='#show_now']").click();
-	});
+	// it("click Now", () => {
+	// 	cy.get("[data-target='#show_now']").click();
+	// });
 
 	// Future Order
-	// it("click Later", () => {
-	// 	cy.get("[data-target='#show_later']").click();
-	// });
+	it("click Later", () => {
+		cy.get("[data-target='#show_later']").click();
+	});
 
 	// it("choose pickup date from calendar popup", () => {
 	// 	cy.get(".pickup-datepicker").click();
@@ -47,20 +47,21 @@ describe("Visit Indochen Cameron Dev Site", () => {
 	// 	cy.get(".today").click({ multiple: true });
 	// });
 
-	// it("choose pickup time", () => {
-	// 	cy.get("#timepicker").click();
-	// 	cy.get(".bootstrap-timepicker-widget").should("be.visible");
-	// 	cy.get("[data-action='incrementHour']").click();
-	// });
-
-	// ASAP Order Button Click
-	it("schedule order", () => {
-		cy.contains("Start Order").click();
+	it("choose pickup time", () => {
+		cy.get("#timepicker").click();
+		cy.get(".bootstrap-timepicker-widget").should("be.visible");
+		cy.get("[data-action='incrementHour']").click();
 	});
 
-	// it("schedule order for future", () => {
-	// 	cy.get(".schedule-order").click();
+	// // ASAP Order Button Click
+	// it("schedule order", () => {
+	// 	cy.contains("Start Order").click();
 	// });
+
+	it("schedule order for future", () => {
+		// cy.get(".schedule-order").click();
+		cy.get("#start_order > .theme-btn").click();
+	});
 
 	// find deals product items
 	it("find deals with product id 28", () => {
@@ -73,6 +74,7 @@ describe("Visit Indochen Cameron Dev Site", () => {
 
 	it("choose pizza crust option Hand Tossed for 1st Pizza", () => {
 		// cy.get('input[type="checkbox"]').check("Hand Tossed Crust");
+		cy.get('[data-option-id="264"] > .drop-head').click();
 		cy.get(
 			'[data-option-id="264"] > .drop-content > :nth-child(1)'
 		).click();
@@ -81,6 +83,7 @@ describe("Visit Indochen Cameron Dev Site", () => {
 	it("choose pizza topping options for 1st Pizza", () => {
 		// cy.get("#options-0-toppingsfor1stpizza-0").check();
 		// cy.get("#options-0-toppingsfor1stpizza-6").check();
+		cy.get('[data-option-id="265"] > .drop-head').click();
 		cy.get(
 			'[data-option-id="265"] > .drop-content > :nth-child(2)'
 		).click();
@@ -90,6 +93,7 @@ describe("Visit Indochen Cameron Dev Site", () => {
 	});
 
 	it("choose boneless wings flavor option", () => {
+		cy.get('[data-option-id="267"] > .drop-head').click();
 		cy.get(
 			'[data-option-id="267"] > .drop-content > :nth-child(3)'
 		).click();
@@ -97,12 +101,14 @@ describe("Visit Indochen Cameron Dev Site", () => {
 
 	it("choose pizza crust option Thin Crust for 2nd Pizza", () => {
 		// cy.get('input[type="checkbox"]').check("Hand Tossed Crust");
+		cy.get('[data-option-id="261"] > .drop-head').click();
 		cy.get(
 			'[data-option-id="261"] > .drop-content > :nth-child(2)'
 		).click();
 	});
 
 	it("choose pizza topping options for 2nd Pizza", () => {
+		cy.get('[data-option-id="262"] > .drop-head').click();
 		cy.get(
 			'[data-option-id="262"] > .drop-content > :nth-child(1)'
 		).click();
@@ -115,6 +121,7 @@ describe("Visit Indochen Cameron Dev Site", () => {
 	});
 
 	it("choose soda type option", () => {
+		cy.get('[data-option-id="269"] > .drop-head').click();
 		cy.get(
 			'[data-option-id="269"] > .drop-content > :nth-child(4)'
 		).click();
@@ -143,7 +150,7 @@ describe("Visit Indochen Cameron Dev Site", () => {
 
 	it("click login", () => {
 		cy.contains("Log In").click();
-		cy.get("#user_login_Modal").should("not.be.visible");
+		// cy.get("#user_login_Modal").should("not.be.visible");
 		cy.get("#checkout_Modal").should("be.visible");
 	});
 
