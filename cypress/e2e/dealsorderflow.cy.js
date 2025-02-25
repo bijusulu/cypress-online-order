@@ -150,16 +150,11 @@ describe("Visit Indochen Cameron Dev Site", () => {
 
 	it("click login", () => {
 		cy.contains("Log In").click();
-		// cy.get("#user_login_Modal").should("not.be.visible");
-		cy.get("#checkout_Modal").should("be.visible");
 	});
 
-	// it("click Continue Checkout", () => {
-	// 	cy.get(
-	// 		".modal-footer > .checkout-btn > .proceed-to-checkout-no-suggestions"
-	// 	).click();
-	// 	cy.get("#cart_suggestions_Modal").should("be.not.visible");
-	// });
+	it("Checkout Modal should be visible", () => {
+		cy.get("#checkout_Modal").should("be.visible");
+	});
 
 	it("click tip percentage", () => {
 		cy.get("[data-value='10']").click();
