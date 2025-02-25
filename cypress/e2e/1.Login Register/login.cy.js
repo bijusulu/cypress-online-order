@@ -17,11 +17,11 @@ describe("Visit Indochen Dev Site", () => {
 	});
 
 	it("require user email", () => {
-		cy.get(".login-email").type("1cypress1messii@yopmail.com");
+		cy.get(".login-email").type("indonepal@yopmail.com", { delay: 200 });
 	});
 
 	it("require password", () => {
-		cy.get(".login-password").type("messi123");
+		cy.get(".login-password").type("1111111111", { delay: 200 });
 	});
 
 	it("click login", () => {
