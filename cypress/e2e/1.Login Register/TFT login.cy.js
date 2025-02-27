@@ -38,13 +38,13 @@ describe("Visit TFT Dev Site", () => {
   });
 
   it("click on Add name field with Input", () => {
-    cy.get("#airline-name").type("NEP Airlines");
-    cy.get("#airline-name").should("have value", "NEP Airlines");
+    cy.get("#airline-name").type("NEPss Airlines");
+    cy.get("#airline-name").should("have value", "NEPss Airlines");
   });
 
   it("click on code field with Input", () => {
-    cy.get("#airline-code").type("NP977A");
-    cy.get("#airline-code").should("have value", "NP977A");
+    cy.get("#airline-code").type("NP977As");
+    cy.get("#airline-code").should("have value", "NP977As");
   });
   it("click to image upload ", () => {
     cy.get('input[type="file"]').selectFile("C:/image/sample.png", {
